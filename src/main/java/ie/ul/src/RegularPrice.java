@@ -1,4 +1,4 @@
-package ie.ul;
+package ie.ul.src;
 
 public class RegularPrice extends Price {
     int getPriceCode() {

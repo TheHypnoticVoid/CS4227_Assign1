@@ -1,4 +1,4 @@
-package ie.ul;
+package ie.ul.src;
 
 abstract class Price {
     abstract int getPriceCode();

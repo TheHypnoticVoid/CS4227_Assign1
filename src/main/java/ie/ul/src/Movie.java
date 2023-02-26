@@ -1,4 +1,4 @@
-package ie.ul;
+package ie.ul.src;
 
 public class Movie {
     public static final int CHILDRENS = 2;
@@ -18,7 +18,7 @@ public class Movie {
     }
 
     public void setPriceCode(int arg) {
-        switch (getPriceCode()) {
+        switch (arg) {
             case REGULAR:
                 _price = new RegularPrice();
                 break;

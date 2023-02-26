@@ -1,6 +1,6 @@
-package ie.ul;
+package ie.ul.src;
 
-class Rental {
+public class Rental {
     private Movie _movie;
     private int _daysRented;
 
@@ -17,11 +17,11 @@ class Rental {
         return _movie;
     }
 
-    double getCharge() {
+    public double getCharge() {
         return _movie.getCharge(_daysRented);
     }
 
-    int getFrequentRenterPoints() {
+    public int getFrequentRenterPoints() {
         return _movie.getFrequentRenterPoints(_daysRented);
     }
 }

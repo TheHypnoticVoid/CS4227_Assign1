@@ -1,4 +1,4 @@
-package ie.ul;
+package ie.ul.src;
 
 class ChildrensPrice extends Price {
     int getPriceCode() {
